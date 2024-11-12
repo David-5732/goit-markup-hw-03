@@ -4,6 +4,23 @@ body {
   background-color: #fff;
 }
 
+.container {
+  width: 1156px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 /* header */
 
 ol,
@@ -13,6 +30,25 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.page-heqader {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+
+.container-header {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .webstudio {
@@ -44,6 +80,9 @@ a {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .contacts-link {
@@ -51,6 +90,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts-link:hover,
@@ -62,6 +106,7 @@ a {
 
 .section-first {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .title-first-section {
@@ -71,6 +116,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
+  margin-bottom: 48px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -85,6 +135,11 @@ h1 {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .button-first-section:hover,
@@ -94,6 +149,13 @@ h1 {
 
 /* 2 section */
 
+.title-section-second {
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .title-second-section {
   font-weight: 500;
   font-size: 20px;
@@ -101,6 +163,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 .text-second-section {
@@ -108,11 +171,33 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 264px;
 }
 
-/* 3 section */
+.list {
+  display: flex;
+  gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding: 0;
+  align-items: center;
+  width: 1128px;
+}
+
+.section-second {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.item-second-section {
+  width: calc((100% - 24px * 3) / 4);
+}
+
+/* 3 section  */
 .section-third {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-section-third {
@@ -123,10 +208,12 @@ h1 {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .item-third-section {
-  background: #fff;
+  background-color: #fff;
+  width: calc((100% - 70) / 4);
 }
 
 .title-third-section {
@@ -135,6 +222,8 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .text-third-section {
@@ -145,7 +234,21 @@ h1 {
   color: #434455;
 }
 
+.list-section-third {
+  display: flex;
+  padding: 0;
+  gap: 24px;
+}
+
+.container-third {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 /* section 4 */
+
+.section-fourth {
+  padding-bottom: 120px;
+}
 
 .title-section-fourth {
   font-weight: 700;
@@ -155,10 +258,24 @@ h1 {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  margin-top: 120px;
 }
 
 .list-fourth-section .item-section-fourth {
   background-color: #ffffff;
+}
+
+.item-section-fourth {
+  width: calc((100% - 48px) / 3);
+}
+
+.list-fourth-section {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  padding: 0;
 }
 
 .title {
@@ -177,13 +294,17 @@ h1 {
   color: #434455;
 }
 
+/* .item-section-fourth {
+  width: calc((100% - 48px) / 3);
+} */
+
 /* footer */
 
 .footer {
   background-color: #2e2f42;
 }
 
-.webstudio {
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -191,6 +312,9 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+  padding-top: 100px;
 }
 
 .studio {
@@ -201,4 +325,6 @@ h1 {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
+  padding-bottom: 100px;
 }
