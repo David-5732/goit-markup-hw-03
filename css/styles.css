@@ -145,6 +145,7 @@ h1 {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
 }
 
 .button-first-section:hover,
@@ -154,11 +155,17 @@ h1 {
 
 /* 2 section */
 
-.title-section-second {
+.visually-hidden {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 }
 
 .title-second-section {
@@ -182,16 +189,13 @@ h1 {
 .list {
   display: flex;
   gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  padding: 0;
+
   align-items: center;
   width: 1128px;
 }
 
 .section-second {
-  padding-left: 0;
-  padding-right: 0;
+  padding: 120px 0;
 }
 
 .item-second-section {
@@ -219,6 +223,7 @@ h1 {
 .item-third-section {
   background-color: #fff;
   width: calc((100% - 70) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .title-third-section {
@@ -251,8 +256,15 @@ h1 {
 }
 /* section 4 */
 
+.container-four-saction {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
+}
+
 .section-fourth {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .title-section-fourth {
@@ -307,6 +319,7 @@ h1 {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-footer {
