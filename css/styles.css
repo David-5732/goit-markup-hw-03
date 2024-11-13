@@ -289,6 +289,7 @@ h1 {
 
 .item-section-fourth {
   width: calc((100% - 48px) / 3);
+  width: 360px;
 }
 
 .list-fourth-section {
@@ -296,7 +297,8 @@ h1 {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  /* padding-top: 0; */
+  /* /* padding-top: 0;  */
+  width: 1128px;
 }
 
 .title {
@@ -315,10 +317,6 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-/* .item-section-fourth {
-  width: calc((100% - 48px) / 3);
-} */
 
 /* footer */
 
