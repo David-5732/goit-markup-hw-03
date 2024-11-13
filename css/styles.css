@@ -44,7 +44,7 @@ img {
 .container-header {
   display: flex;
   width: 1158px;
-  padding: 24px 15px;
+  padding: 0px 15px;
 }
 
 .header-nav {
@@ -267,7 +267,7 @@ h1 {
 
 .section-fourth {
   padding-bottom: 120px;
-  padding: 120px;
+  padding-top: 120px;
 }
 
 .title-section-fourth {
@@ -278,7 +278,8 @@ h1 {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+
+  margin-bottom: 72px;
 }
 
 .list-fourth-section .item-section-fourth {
