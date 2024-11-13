@@ -266,7 +266,7 @@ h1 {
 
 .section-fourth {
   padding-bottom: 120px;
-  padding-top: 120px;
+  padding-top: 0;
 }
 
 .title-section-fourth {
@@ -294,7 +294,7 @@ h1 {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  /* padding: 0; */
+  /* padding-top: 0; */
 }
 
 .title {
