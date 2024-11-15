@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  width: 1156px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -44,7 +44,7 @@ img {
 .container-header {
   display: flex;
   width: 1158px;
-  padding: 0px 15px;
+  padding: 24px 15px;
 }
 
 .header-nav {
@@ -73,12 +73,12 @@ img {
 }
 
 .nav-link {
+  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -335,7 +335,6 @@ h1 {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-  padding-top: 100px;
 }
 
 .studio {
@@ -347,5 +346,4 @@ h1 {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-bottom: 100px;
 }
