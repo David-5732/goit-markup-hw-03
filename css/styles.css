@@ -44,7 +44,7 @@ img {
 .container-header {
   display: flex;
   width: 1158px;
-  padding: 24px 15px;
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -55,6 +55,7 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .webstudio {
