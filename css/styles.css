@@ -44,19 +44,18 @@ img {
 .container-header {
   display: flex;
   width: 1158px;
-  padding: 0 15px;
-  padding: 24px 0;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 0 15px;
+  padding: 24px 0;
 }
 
 .nav-list {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
 }
 
 .webstudio {
@@ -93,6 +92,8 @@ img {
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
+  padding: 0 15px;
+  padding: 24px 0;
 }
 
 .contacts-link {
